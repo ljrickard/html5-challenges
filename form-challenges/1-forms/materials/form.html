@@ -156,6 +156,56 @@
       </fieldset/>
       </form>
     </div>
+   <div id="container">
+      <form action="">
+         <fieldset>
+         <legend>Form 5</legend>
+         <ul>
+            <li>
+               <label for="date">Date:</label>
+               <input id="date" name="date" type="date">
+            </li>
+            <li>
+               <label for="meal">Meal</label>
+               <input type="checkbox" name="meal" value="stater">Stater
+               <input type="checkbox" name="meal" value="main">Main
+               <input type="checkbox" name="meal" value="dessert">Dessert
+            </li>
+            <li>
+               <label for="gender">Gender:</label>
+               <input type="radio" name="gender" value="male">Male
+               <input type="radio" name="gender" value="female">Female
+               <input type="radio" name="gender" value="other">Other
+            </li>
+            <li>
+               <label for="signsOfZodiac">Signs of Zodiac:</label>
+               <select id="signsOfZodiac">
+                  <option value="sun">Sun</option>
+                  <option value="earth">Earth</option>
+                  <option value="fire">Fire</option>
+                  <option value="water">Water</option>
+               </select>
+            </li>
+            <li>
+               <label for="musicGenres">Music Genres:</label>
+               <input list="musicGenres" name="musicGenres">
+                  <datalist id="musicGenres">
+                     <option value="Rock"></option>
+                     <option value="Dance"></option>
+                     <option value="Blues"></option>
+                  </datalist>
+            </li>
+            <li>
+               <label for="volume">Range:</label>
+               <input id="volume" type="range" min="0" max="120">
+            </li>
+            <li>
+               <input type="submit" value="submit">
+            </li>
+         </ul>
+      </fieldset/>
+      </form>
+    </div>
    </body>
 </html>
 
